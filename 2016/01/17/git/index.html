@@ -35,7 +35,7 @@
 <link href="/css/main.css?v=0.4.5.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="android,gridview,listview,onItemClickListener," />
+  <meta name="keywords" content="Hexo, NexT" />
 
 
 
@@ -51,25 +51,16 @@
 
 
 
-<meta name="description" content="&amp;#160; &amp;#160; &amp;#160; &amp;#160;ListView中嵌套了GridView时，GridView会抢先获取点击事件，从而导致ListView的Item点击事件会失效掉。&amp;#160; &amp;#160; &amp;#160; &amp;#160;如果GridView不需要点击事件的话，就见以下代码。
-
-首先在ListView的item的XML文件的最外成加入
-1android:descendantFoc">
+<meta name="description">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Android中ListView嵌套GridView导致点击事件失效">
-<meta property="og:url" content="http://blog.ichild.ren/2016/01/07/android-listview-nested-gridview-not-click/index.html">
+<meta property="og:title" content="git">
+<meta property="og:url" content="http://blog.ichild.ren/2016/01/17/git/index.html">
 <meta property="og:site_name" content="壹個程序員的花樣作死">
-<meta property="og:description" content="&amp;#160; &amp;#160; &amp;#160; &amp;#160;ListView中嵌套了GridView时，GridView会抢先获取点击事件，从而导致ListView的Item点击事件会失效掉。&amp;#160; &amp;#160; &amp;#160; &amp;#160;如果GridView不需要点击事件的话，就见以下代码。
-
-首先在ListView的item的XML文件的最外成加入
-1android:descendantFoc">
-<meta property="og:updated_time" content="2016-01-07T03:13:52.145Z">
+<meta property="og:description">
+<meta property="og:updated_time" content="2016-01-17T15:34:00.275Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Android中ListView嵌套GridView导致点击事件失效">
-<meta name="twitter:description" content="&amp;#160; &amp;#160; &amp;#160; &amp;#160;ListView中嵌套了GridView时，GridView会抢先获取点击事件，从而导致ListView的Item点击事件会失效掉。&amp;#160; &amp;#160; &amp;#160; &amp;#160;如果GridView不需要点击事件的话，就见以下代码。
-
-首先在ListView的item的XML文件的最外成加入
-1android:descendantFoc">
+<meta name="twitter:title" content="git">
+<meta name="twitter:description">
 
 
 
@@ -81,7 +72,7 @@
   };
 </script>
 
-  <title> Android中ListView嵌套GridView导致点击事件失效 | 壹個程序員的花樣作死 </title>
+  <title> git | 壹個程序員的花樣作死 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -189,7 +180,7 @@
             
             
               
-                Android中ListView嵌套GridView导致点击事件失效
+                git
               
             
           </h1>
@@ -198,8 +189,8 @@
         <div class="post-meta">
           <span class="post-time">
             发表于
-            <time itemprop="dateCreated" datetime="2016-01-07T10:57:50+08:00" content="2016-01-07">
-              2016-01-07
+            <time itemprop="dateCreated" datetime="2016-01-17T23:34:00+08:00" content="2016-01-17">
+              2016-01-17
             </time>
           </span>
 
@@ -222,48 +213,24 @@
       
 
       
-        <span itemprop="articleBody"><p>&#160; &#160; &#160; &#160;ListView中嵌套了GridView时，GridView会抢先获取点击事件，从而导致ListView的Item点击事件会失效掉。<br>&#160; &#160; &#160; &#160;如果GridView不需要点击事件的话，就见以下代码。</p>
-<ol>
-<li><p>首先在ListView的item的XML文件的最外成加入</p>
-<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">android:descendantFocusability="blocksDescendants"</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>然后再adapter的java文件中获取gridview</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">holder.imgGrid.setClickable(<span class="keyword">false</span>);</span><br><span class="line">holder.imgGrid.setPressed(<span class="keyword">false</span>);</span><br><span class="line">holder.imgGrid.setEnables(<span class="keyword">false</span>);</span><br></pre></td></tr></table></figure></li>
-</ol>
-</span>
+        <span itemprop="articleBody"></span>
       
     </div>
 
     <footer class="post-footer">
-      
-        <div class="post-tags">
-          
-            <a href="/tags/android/" rel="tag">#android</a>
-          
-            <a href="/tags/gridview/" rel="tag">#gridview</a>
-          
-            <a href="/tags/listview/" rel="tag">#listview</a>
-          
-            <a href="/tags/onItemClickListener/" rel="tag">#onItemClickListener</a>
-          
-        </div>
       
 
       
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/01/06/android-open-project/" rel="next" title="Android 开源项目分类汇总">
-                <i class="fa fa-chevron-left"></i> Android 开源项目分类汇总
+              <a href="/2016/01/07/android-listview-nested-gridview-not-click/" rel="next" title="Android中ListView嵌套GridView导致点击事件失效">
+                <i class="fa fa-chevron-left"></i> Android中ListView嵌套GridView导致点击事件失效
               </a>
             
           </div>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2016/01/17/git/" rel="prev" title="git">
-                git <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
